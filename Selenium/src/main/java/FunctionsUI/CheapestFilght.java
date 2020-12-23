@@ -189,7 +189,7 @@ public class CheapestFilght {
 		
 	String lowestPrice=	driver.findElement(By.xpath("//div[@class=\"pull-left  make_relative price\"]/p/span")).getText();
 
-		System.out.println(lowestPrice);
+		System.out.println("Lowest price is: "+lowestPrice);
 		
 		
 		Price.click();
@@ -198,7 +198,7 @@ public class CheapestFilght {
 		
 		String highestPrice=	driver.findElement(By.xpath("//div[@class=\"pull-left  make_relative price\"]/p/span")).getText();
 		
-	System.out.println(highestPrice);
+	System.out.println("Highest price is: "+highestPrice);
 	
     
 	
